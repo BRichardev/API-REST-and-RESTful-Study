@@ -26,6 +26,8 @@ Link para o Insomnia: [Insomnia Download](https://insomnia.rest/download)
 # API, REST e RESTFUL
 
 ## API
+
+### Simplificação da ideia de como funciona uma API (passo-a-passo)
 Cliente (Cliente)<br />
 Garçom (pedidos, levar seus pedidos, para a cozinha) (API) <br />
 Cozinha (Server) <br />
@@ -38,13 +40,16 @@ desta aplicação
 - Responsável por estabelecer comunicação entre diferentes serviços
 - Meio de campe entre as tecnologias
 - Intermediador para troca de informações
+<hr />
 
 ## REST
 
-Restaurante<br />
+### Simplificação da ideia de como funciona o REST (passo-a-passo)
+
+Restaurante<br />  
 Limpinho,<br />
 Que te atenda bem,<br />
-te de aquli que vc pediu<br />
+Que te entregue aquilo que pediu<br />
 
 Cliente,<br />
 Gritando,<br />
@@ -81,9 +86,10 @@ Resources seria então, uma entidade, um objeto.<br />
 
  - _Layered System_: O cliente acessa um endpoint, sem precisar saber da complexidade, de quais passos estão sendo<br /> necessários para o servidor responder requisição, ou quais outras camadas o servidor estará lidando, para que a requisição seja respondida
 
- https://graph.facebook.com/youtube = endpoint// a url que seria o caminho que o servidor faz para achar esse link<br />
+ https://graph.facebook.com/youtube = endpoint// a url que seria o caminho que o servidor faz para entregar esse link ao cliente<br />
 
  - _Code on demand (optional)_: Dá a possibilitade da nossa aplicação pegar códigos, como o javascript por exemplo, e executar no cliente 
+<hr />
 
 ## RESTFUL
 
